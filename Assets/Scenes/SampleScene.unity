@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6978456640703708555, guid: d21777d193535e94886df05a7d3d6784, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.99048626
+      objectReference: {fileID: 0}
     - target: {fileID: 8828982764297103621, guid: d21777d193535e94886df05a7d3d6784, type: 3}
       propertyPath: m_Name
       value: MoneyGain
@@ -946,6 +950,18 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2879693001890227745, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555631425450459873, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061767998545570201, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5625318344898182301, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -984,6 +1000,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5625318344898182301, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054828755789648796, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228612286155668016, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621902171413175026, guid: 67e700f54cea3dd44855246b1eca129d, type: 3}
@@ -3029,7 +3053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "If you want to trade do it fast\n open your Inventory"
+  m_text: "If you want to trade do it fast come here\n open your Inventory"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3092,7 +3116,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0.7937851}
+  m_margin: {x: 0, y: -0.0073161125, z: 0, w: 0.7937851}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3310,8 +3334,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.2788}
+  m_SizeDelta: {x: 0, y: 0.5576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2136144533
 MonoBehaviour:
