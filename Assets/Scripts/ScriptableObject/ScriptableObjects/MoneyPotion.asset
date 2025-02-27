@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a85a37407a94d42a2284f2f7e256ce, type: 3}
+  m_Name: MoneyPotion
+  m_EditorClassIdentifier: 
+  chosenEnumType: 0
+  potionType: 2
+  recourceType: 0
+  itemName: Money
+  value: 100
+  icon: {fileID: 21300000, guid: 292f7f87be791c64abca8e18064bd2bf, type: 3}
+  itemPrefab: {fileID: 0}
+  description: Drink and gain money
